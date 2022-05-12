@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
-    <link rel="stylesheet" href="stylesheet.css"
+    <link rel="stylesheet" href="stylesheet.css">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -39,8 +39,18 @@
 
     </nav>
 
-    <!--showcase-->
-    <section class="bg-warning text-dark p-5 text-center">
+    <!--map-->
+
+    <section class = "bg-warning text-dark p-5 text-center">
+        <h1>Find a bike near you!</h1>
+        <div class = "container-fluid">
+            <iframe class = "container-fluid container-md" id = "map" src="https://www.google.com/maps/d/u/0/embed?mid=10q82kuFkv-1Ib7DXvSOIIKsgGjBSQPhe&ehbc=2E312F" width="350" height="350"></iframe>
+            <p>Our team at Swift have carefully placed each bike rack in prime locations for users to either explore the cities beautiful attractions or simply get to and from one side of the city to another.  </p>
+        </div>
+
+    </section>
+<!--Showcase-->
+    <section class="bg-dark text-light p-5 text-center">
 
         <div id = "showcase" class="container-fluid">
             <div class ="d-sm-flex">
@@ -70,21 +80,12 @@
                     </button>
                   </div>
                  <p class="lead my-4">Discover Bristol’s best landmarks, hidden gems, award-winning eateries, and local wines</p>
-                 <button class="btn btn-dark btn-lg">Sign up</button>
+                 <button class="btn btn-warning btn-lg">Sign up</button>
                  <button class = "btn btn-light btn-lg">Prices</button>
                 </div>
             </div>
 
         </div>
-    </section>
-
-    <section class = "bg-dark text-light p-5 text-center">
-        <h1>Find a bike near you!</h1>
-        <div class = "container-fluid">
-            <iframe class = "container-fluid container-md" id = "map" src="https://www.google.com/maps/d/u/0/embed?mid=10q82kuFkv-1Ib7DXvSOIIKsgGjBSQPhe&ehbc=2E312F" width="350" height="350"></iframe>
-            <p>Our team at Swift have carefully placed each bike rack in prime locations for users to either explore the cities beautiful attractions or simply get to and from one side of the city to another.  </p>
-        </div>
-
     </section>
 
     <footer class = "bg-warning text-dark">
