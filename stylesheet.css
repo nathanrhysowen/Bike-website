@@ -1,3 +1,13 @@
-.showcase{
-    background-color: #ffd100;
+.carousel-inner{
+    border-top: 5px;
+    border-left: 5px;
+    border-right: 5px;
+    border-bottom: 5px;
+    border-color: black;
+    border-style: solid;
+}
+
+.map{
+    padding-right: 50px;
+    
 }
